@@ -27,7 +27,7 @@ def generate_belgian_plate(plate_number: str):
     # Save the image
     image.save(plate_number + ".png")
 
+# Input to get variable from cmd to automate creation
 input_plate_number = sys.argv[1]
-
-# Test the function
+# Launch the function
 generate_belgian_plate(input_plate_number)
